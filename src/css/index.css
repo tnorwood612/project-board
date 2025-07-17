@@ -1,0 +1,59 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+        --main: #183c34;
+        --bg: rgb(201 228 197 / var(--tw-bg-opacity, 1));
+
+}
+
+html, body {
+        padding: 0;
+        margin: 0;
+} 
+
+.text-black{
+        color: black;
+}
+
+.background-grey{
+        background-color: var(--bg);
+}
+
+.background-dark{
+        background-color: var(--main);
+}
+
+.form-background{
+        background-color: antiquewhite;
+}
+
+.full-screen{
+        min-height: 100vh;
+}
+
+.button-placement{
+        position: relative;
+        top: -5px;
+}
+
+.button-width{
+        max-width: 130px;
+}
+
+.break-word{
+        word-wrap: break-word;
+}
+
+.table-row{
+        max-height: 48px;
+}
+
+/*
+Overwrites for framework classes
+*/
+
+.bg-white{
+        background-color: antiquewhite;
+}
